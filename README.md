@@ -23,3 +23,10 @@ Three files:
 * run_analysis.R // performs all operation
 * CodeBook.md    // data description
 * README.md      // overview
+
+## What has been done in run_analysis.R
+- Data is merged from train and test data into one dataset
+- Features filtered (remained means and standard deviations only)
+- Renamed column to be in accordance with principles of tidy data
+- Used names instead of ids for activities
+- Obtained aggregated statistics (mean) for each varible by activity and subject
